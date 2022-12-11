@@ -1,0 +1,186 @@
+*,
+*:before,
+*:after {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#perkenalan {
+    color: white;
+}
+
+#span-1 {
+    color: rgb(252, 147, 165);
+}
+
+.container {
+    height: 100vh;
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    background-size: cover;
+    background-position: center center;
+    height: 150vh;
+}
+
+.header {
+    margin-top: 69px;
+    height: 130px;
+    width: 100%;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 8%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(255, 202, 227, 0.6);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.list-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.text-navbar {
+    display: inline-block;
+}
+
+.text-navbar a {
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.text-navbar a:hover {
+    transition: ease-in-out 0.4s;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-text1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-text2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#section-tentang {
+    background-color: rgb(252, 224, 229);
+}
+
+#tentang {
+    background-color: rgb(255, 175, 190);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.column {
+    padding: 10px;
+    margin-left: 2cm;
+    float: left;
+}
+
+#p-aboutme {
+    padding: 10px;
+    margin-bottom: 1;
+}
+
+#video {
+    margin-left: 5cm;
+    clear: left;
+}
+
+#studi {
+    background-color: rgb(255, 175, 190);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#section-studi {
+    background-color: rgb(252, 224, 229);
+}
+
+#table {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(255, 118, 118);
+}
+
+#hubungi {
+    background-color: rgb(255, 175, 190);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.sosmed-row {
+    margin: 10px 0 0 10px;
+}
+
+.sosmed-column {
+    float: left;
+    margin: 3px;
+    padding: 10px;
+}
+
+.sosmed-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form {
+    position: relative;
+    left: 20cm;
+    bottom: 1cm;
+}
+
+#footer {
+    background-color: rgb(255, 175, 190);
+    color: white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
